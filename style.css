@@ -1,0 +1,47 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif; /* Use a more elegant font */
+}
+
+.website-name {
+    font-size: 30px; 
+    font-weight: bold;
+    margin-left: 10px; 
+    /*margin-top: 30px;*/
+}
+
+
+.login-form {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.user-details-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add some shadow for depth */
+    transition: 0.3s; /* Adds a subtle transition effect */
+}
+
+.user-details-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Slightly larger shadow on hover */
+}
+
+.user-detail {
+    font-size: 1.1rem; /* Slightly larger font size for details */
+    margin-bottom: 10px; /* Space out the details */
+}
+
+.card-header {
+    background-color: #f8f9fa; /* A subtle header background */
+    border-bottom: 1px solid #e3e4e6; /* A light border for the header */
+}
+
+.error {
+    font-weight: bold; /* Make error message bold */
+}
